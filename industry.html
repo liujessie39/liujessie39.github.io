@@ -54,7 +54,7 @@
 									<article>
 										<img src="images/steelcase.png" alt="" style="width:175px;height:133px;"/>
 										<div class="content">
-											<h3><a href="#SC">Innovation Intern</a></h3>
+											<h3><a href="#steelcase">Innovation Intern</a></h3>
 											<h5>Steelcase</h5>
 											<h5>May 2022 - December 2022</h5>
 										</div>
@@ -64,7 +64,7 @@
 
 
 								<section>
-									<header class="main">
+									<header class="main" style="clear:both">
 										<a id="LG"><h2>Mechanical Engineering Co-Op - Landis+Gyr</h2></a>
 									</header>
 
@@ -76,7 +76,7 @@
 										Windchill to manage the assemblies I created. 
 									</p>
 
-									<h3><u>Project Directory</u></h3>
+									<h3 style="clear:both"><u>Project Directory</u></h3>
 
 									<ul class="icons">
 										<li><a href="#pcb_clam" class="icon solid fa-play">&ensp; PCB Reprogramming Fixture</a></li>
@@ -84,7 +84,16 @@
 										<li><a href="#terminal_assy" class="icon solid fa-play">&ensp; Crimp Terminal Assembly Tool</a></li>
 									</ul>
 
-									<a id="pcb_clam"><h3>PCB Reprogramming Fixture</h3></a>
+									<a id="pcb_clam"><h3 style="clear:both">PCB Reprogramming Fixture</h3></a>
+
+									<div style="width:25%;float:right;padding:.5%">
+										<img src="images/industry/clam_1.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Intermediate Prototype with Snap Fit</i></figcaption>
+									</div>
+									<div style="width:20.5%;float:right;padding:.5%">
+										<img src="images/industry/clam_2.png" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Final CAD Model</i></figcaption>
+									</div>
 
 									<p>
 										One of the PCB cards at Landis+Gyr is designed with a female connector for programming that is clipped off after initial flashing. However, the test 
@@ -104,57 +113,89 @@
 										fixture was one of the first design projects I ever did on my own. It taught me a lot about designing for human factors and additive manufacturing. 
 									</p>
 
-									<a id="test_fixture"><h3>Gas Sensor Test Fixture</h3></a>
+									
+
+									<a id="test_fixture"><h3 style="clear:both">Gas Sensor Test Fixture</h3></a>
 									<p>
 										For this project I was tasked with making a test fixture to calibrate positioning of a sensor to most 
-										optimally sense the number of revolutions of a gas meter. This was important because the sensor was for 
-										linking older gas meters to the smart grid. 
-									</p>
-
-									<p>
+										optimally sense the number of revolutions of a gas meter. A previous iteration had been made prior to this but 
+										lacked the range of +/- 2 inches desired and the precision in locating the dial and sensor in relation to each other 
+										that a fixture provides.
+									
 										Because the dial and sensor are both small, the precision needed was very high. As such, a 3-axis 
 										micrometer stage was used to calibrate the optimal positioning between the sensor and gas dial. The 
 										rest of the design was based on the dimensions of the stage. The dial was attached to a motor meant to simulate 
 										the rate of the gas meter dial in operation. 
-									</p>
-
-									<p>
+									
 										This design was also 3D printed using the in-house Stratasys PolyJet because we wanted the level of 
 										precision a 3D printer provided for this test fixture. To save on material costs, the internal structure 
 										was hollowed out and filled with support material instead. 
 									</p>
 
-									<a id="terminal_assy"><h3>Crimp Terminal Assembly Tool</h3></a>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/gas_1.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Test Fixture - Dial Marked in Red</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/gas_2.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Test Fixture on Left Compared with Prior Iteration on Right</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/gas_3.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Fixture on Stage to Hold Sensor PCB Marked in Red</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/gas_4.png" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>Cross-Section of Fixture CAD Model Showing Interface with Dial Gear</i></figcaption>
+									</div>
+
+									<a id="terminal_assy"><h3 style="clear:both">Crimp Terminal Assembly Tool</h3></a>
 									<p>
 										This project is one I'm most proud of from my time at Landis+Gyr. A tool was needed to assemble crimp terminals 
 										at the bottom of a hole within in assembly. In order to accomplish this, I designed a passive insertion tool 
 										that holds onto the terminal, aligns with the assembly, and passively releases from the terminal after it's 
-										assembled. 
-									</p>
+										assembled. Bumps along the tool channel held the wire in place once the terminal was slid into the tool.
 
-									<p>
 										The passive release mechanism was achieved through two inclines that engage when the tool is 
 										being pulled out in order to push the sides of the tool out like cantilevers. The tool was machined 
 										out of polycarbonate at a rapid prototyping company, as we only needed a small run for the assembly 
 										line to fix the immediate assembly problem. 
-									</p>
-
-									<p> 
+									
 										This project was something I really enjoyed working on because it was the first project I'd taken 
 										ownership of that ended up being used on an assembly line, rather than just in the lab by one or 
 										two people. I learned a lot about designing for manufacturability and ergonomics of tool design 
 										through this project. 
 									</p>
 
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/term_assy_1.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>(1) Slide Crimp Terminal into Tool</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/term_assy_2.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>(2) Line up with Assembly Hole</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/term_assy_3.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>(3) Press Down Firmly (Tool Aligns for You)</i></figcaption>
+									</div>
+									<div style="width:25%;float:left;padding:.5%">
+										<img src="images/industry/term_assy_4.jpg" style="width:100%;padding:.5%"/>
+										<figcaption style="text-align:center;"><i>(4) Pull Tool Out (Passive Release Mechanism)</i></figcaption>
+									</div> 
 	
 
 								</section>
 
 								<section>
-									<header class="main">
-										<a id="SC"><h2>Innovation Intern - Steelcase</h2></a>
+
+									<img src="images/industry/steelcase.png" style="width:30%;float:right;padding:.5%"/>
+
+									<header class="main" >
+										<a id="steelcase"><h2>Innovation Intern - Steelcase</h2></a>
 									</header>
 
+									
 									<p>
 										At Steelcase, I interned as a part of the Innovation Management Office, a team that focused on 
 										exploring new technologies and their potential applications to improving the operations of the 
@@ -165,14 +206,20 @@
 										view of how a business is run and develop an interdisciplinary view of the work I do. 
 									</p>
 
-									<h3><u>Project Directory</u></h3>
+									<h3 style="clear:both"><u>Project Directory</u></h3>
 
 									<ul class="icons">
 										<li><a href="#verb" class="icon solid fa-play">&ensp; Redesigning a Die-Cast Zn-Al Part to Glass-Filled Nylon</a></li>
 										<li><a href="#digital_thread" class="icon solid fa-play">&ensp; Exploring PLM & the Digital Thread</a></li>
 									</ul>
 
-									<a id="verb"><h3>Redesigning a Die-Cast Zn-Al Part to Glass-Filled Nylon</h3></a>
+									<a id="verb"><h3 style="clear:both">Redesigning a Die-Cast Zn-Al Part to Glass-Filled Nylon</h3></a>
+
+									<div style="width:30%;float:left;padding:1%">
+										<img src="images/industry/verb.jpg" style="width:100%;padding:1%"/>
+										<figcaption style="text-align:center;"><i>Giving my Final Intern Presentation</i></figcaption>
+									</div> 
+
 									<p>
 										At Steelcase, I was tasked with redesiging a lock housing critical to the design of a table from its original 
 										die-cast zinc-aluminum alloy to be made with injection molded glass-filled nylon. Due to the complexity of the 
@@ -204,7 +251,12 @@
 										coursework. It was also a great experience to be guided through the various factors, like cost analyses 
 										and customer experience, beyond engineering capability that goes into making a design decision.
 									</p>
-									<a id="digital_thread"><h3>Exploring PLM & the Digital Thread</h3></a>
+									<a id="digital_thread"><h3 style="clear:both">Exploring PLM & the Digital Thread</h3></a>
+
+									<div style="width:30%;float:left;padding:1%">
+										<img src="images/industry/plm.jfif" style="width:100%;padding:1%"/>
+										<figcaption style="text-align:center;"><i>Giving my Final Intern Presentation</i></figcaption>
+									</div> 
 									<p>
 										During my internship at Steelcase, one of the projects I was tasked with was a very open-ended objective
 										to explore the digital thread - a concept within PLM (product lifecycle management) where technology, 
@@ -220,7 +272,7 @@
 										instructions, and more. I used Creo Parametric to create the product and Windchill, PTC's PLM software, 
 										to manage the PLM process. By creating a product and taking it through the entire PLM process, I was able 
 										to craft a narrative demonstrating the benefits of connected data created upstream and leveraged downstream. 
-										I presented this to numerous teams and leadership across the company, including our VP of Gloabl Operations and Chief 
+										I presented this to numerous teams and leadership across the company, including our VP of Global Operations and Chief 
 										Technology Officer. 
 									</p>
 									<p>
@@ -270,7 +322,7 @@
 										</ul>
 										<li><a href="projects.html">Coursework & Projects</a></li>
 										<li><a href="extracurriculars.html">Extracurriculars</a></li>
-										<li><a href="skills.html">Skills Directory</a></li>
+										<li><a href="skills.html">Skills</a></li>
 										<li><a href="Liu_Jessie_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
 									</ul>
 								</nav>
